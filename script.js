@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Add task when button is clicked
   addButton.addEventListener('click', () => addTask(taskInput.value));
-
+["classList.add"]
   // Add task when Enter key is pressed
   taskInput.addEventListener('keypress', function (event) {
     if (event.key === 'Enter') {
